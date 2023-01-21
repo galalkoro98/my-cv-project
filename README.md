@@ -69,7 +69,7 @@ console.log(error);
 <details>
 <summary> Note</summary>
 
-```
+```js
 You can use these API calls in your frontend code, in order to create, retrieve, update, and delete data for the different sections of your CV.
 
 It's worth noting that the URLs and data in the examples above are just for demonstration purposes, and you'll need to adjust them to match your specific setup. Additionally, you'll want to make sure to handle any errors that may occur during the API calls and display appropriate messages to the user.
@@ -80,14 +80,14 @@ It's worth noting that the URLs and data in the examples above are just for demo
 
 <summary>Where you should store CV data content?</summary>
 
-```
+```js
 store the data for your CV content in a database. Strapi supports several databases like MongoDB, MySQL, and PostgreSQL. You can choose the one you are most comfortable with. Once you have set up the database, Strapi will automatically create the database tables and models based on the content types you have created.
 
 Then you can use the Strapi API to create, retrieve, update and delete data for each of the sections of your CV (Experience, Education, Skills, and About). The API calls for creating, retrieving, updating and deleting data that I provided in my previous answer, are making requests to the database via the Strapi API.
 
 You can also use a front-end library like axios to make HTTP requests to the Strapi API and interact with the data stored in the database.
 
-It's important to mention that you can also use a different approach to store your data, like using a cloud-based database service like Firebase, AWS DynamoDB, or Google Cloud Firestore.
+It's important to mention that you can also use a different approach to store your data, like using a cloud-based database service like Firebase, AWS DynamoDB, or Google Cloud Firestore
 ```
 </details>
   
